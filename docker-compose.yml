@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  oa.webapi:
+    image: oawebapi
+    build:
+      context: .
+      dockerfile: OA.WebApi/Dockerfile
